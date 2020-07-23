@@ -1,2 +1,6 @@
-创建文件
-修改文件
+
+git  init 
+git add -A  git  add    git  rm
+git commit -m '提交'
+git reflog
+git reset --hard至少四位数以上的版本号
