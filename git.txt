@@ -4,3 +4,18 @@ git add -A  git  add    git  rm
 git commit -m '提交'
 git reflog
 git reset --hard至少四位数以上的版本号
+
+进入mywork的git bash ,开始创建自定义分支操作
+创建分支
+	$ git branch 分支名称
+移除分支
+	$ git branch -D 分支名称
+查看分支
+	$ git branch
+切换分支
+	$ git checkout 分支名称 一定要提交分支
+合并分支
+	$ git  merge 分支名称  一定要提交分支
+创建分支，同时切换分支
+	$ git checkout -b 分支名称
+
